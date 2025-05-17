@@ -18,7 +18,6 @@ ancho (Raiz _ ArbolBinarioVacio ArbolBinarioVacio) = 1
 ancho (Raiz _ izq der) = ancho izq + ancho der
 
 -------------------- EJERCICIO 4 --------------------
--------------------- EJERCICIO 4 --------------------
 data Recorrido = InOrder | PreOrder | PosOrder
 
 recorrido :: Arbol a -> Recorrido -> [a]
